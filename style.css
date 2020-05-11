@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	
+	background: #C96 center bottom / cover url(back.jpg) no-repeat fixed;
+	
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Oswald, Tahoma, sans-serif;
+}
+h1 {font-size: 38px;}
+h2 {font-size: 32px;}
+h3 {font-size: 28px;}
+h4 {font-size: 26px;}
+h5 {font-size: 22px;}
+h6 {font-size: 18px;}
+
+
+
+a:link, 
+a:visited {
+	color: red;
+	text-decoration: none;
+}
+a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+a:active {
+	color: green;
+}
+
+
+#wrapper {
+	width: 950px;
+	padding: 15px;
+	margin: 20px auto;
+	background:rgba(255,255,255,0.5);
+}
+#header {
+	background: rgba(140,198,63,0.5);
+	margin-bottom: 15px;
+	padding: 20px;
+	overflow: hidden;
+}
+#logo {
+	float: left;
+}
+#slogan {
+	float: right;
+	font-family: Oswald, Tahoma, sans-serif;
+	font-size: 20px;
+}
+#nav {
+	background: #534741;
+	height: 40px;
+	margin-bottom: 15px;
+}
+#nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#nav ul li {
+	float: left;
+}
+#nav ul li a {
+	display: block;
+	padding: 10px;
+	height: 20px;
+	line-height: 20px;
+	transition: 0.6s all ease;
+}
+#nav ul li a:link,
+#nav ul li a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	background: #F00;
+}
+#nav ul li a:active {
+	background: #999;
+}
+
+
+
+#central {
+	overflow: hidden;
+}
+#main {
+	background-color: #E6E6E6;
+	float: left;
+	width: 620px;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+#sidebar {
+	background: #CCCC99;
+	height: 300px; /* priv */
+	float: right;
+	width: 280px;
+	margin-bottom: 15px;
+}
+#footer {
+	background: #534741;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px;
+}
+#footer p {
+	margin: 0;
+}
+#footer a:link, 
+#footer a:visited {
+	color: yellow;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: white;
+}
+#footer a:active {
+	color: aqua;
+}
+
+.imgLeft {
+	float: left;
+	margin: 0 12px 6px 0;
+}
+.imgLeft p {
+	margin: 0;
+	font-size: 12px;
+	text-align: center;
+}
+
+.halfText {
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+}
+#promocija {
+	background: #FF9900;
+	color: #FFFFFF;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
